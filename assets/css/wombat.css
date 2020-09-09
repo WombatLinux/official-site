@@ -48,3 +48,8 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+br {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
