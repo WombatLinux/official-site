@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<!--
+    <!--
          __                               _           _                            _        _   _     _     
         / _|                             | |         | |                          | |      | | | |   (_)    
    __ _| |_ _ __ ___  _ __ __ _ _   _  __| |_   _  __| | ___   _ __ ___   __ _  __| | ___  | |_| |__  _ ___ 
@@ -31,7 +31,7 @@
                 <a href="/uspm.html" class="pure-menu-link">USPM</a>
             </li>
             <li class="pure-menu-item">
-                <a href="/installedpackages.html" class="pure-menu-link">List of installed packages</a>
+                <a href="/installedpackages.html" class="pure-menu-link">List of default installed packages</a>
             </li>
         </ul>
     </div>
@@ -43,6 +43,7 @@
             <h1 class="center-horiz" id="welcome-to-wombat-linux">
                 Welcome to Wombat Linux
             </h1>
+            <p class="center-horiz"><i>Lightweight, general purpose Linux</i></p>
         </div>
     </div>
     <div class="pure-g">
@@ -54,19 +55,44 @@
                 Wombat Linux is a lightweight Linux distribution that can run on all
                 types of (for now, x86_64) systems. It relies on musl-libc over glibc
                 and replaces the usual GNU Coreutils with Suckless Base. Bash is included,
-                however it is not the default shell, instead, ZSH is used as the main 
+                however it is not the default shell, instead, ZSH is used as the main
                 shell of choice.
-                <br/>
-                Wombat Linux, like other distributions, supports X11 and allows for the 
+                <br />
+                Wombat Linux, like other distributions, supports X11 and allows for the
                 installation of dwm on top, with XFCE and KDE being planned packages.
-                <br/>
+                <br />
                 <b>How small is it REALLY?</b>
                 <br>
                 Currently the minimal ISO is &lt; 300 MB, however it is has some artifacts
-                from testing, so an even smaller version will be available on v1.0 release. 
-                The development environment (which is basically the same system but with a 
-                lot of tools like GCC and the necessary tools to build more software) is 
+                from testing, so an even smaller version will be available on v1.0 release.
+                The development environment (which is basically the same system but with a
+                lot of tools like GCC and the necessary tools to build more software) is
                 around 1.7 GB.
+            </p>
+        </div>
+        <div class="pure-u-1-1">
+            <h2 class="" id="Philosophy">
+                Philosophy
+            </h2>
+            <p>
+                There are two main philosophies of Wombat Linux:
+                <ol class="list-with-space">
+                    <li>
+                        "light, yet powerful", or
+                        rather, to stay minimalist, but allow for expansion into more
+                        powerful use cases.
+                        <br/>
+                        The system by itself, at base installation, will use as little
+                        system resources as possible. It is the user's choice to expand
+                        on that.
+                    </li>
+                    <li>
+                        Community-driven development: as in creation and implementation
+                        of software in a community focused manner, mainly on <a
+                            href="https://github.com/wombatlinux">GitHub</a> and
+                        other project collaboration sites.
+                    </li>
+                </ol>
             </p>
         </div>
         <div class="pure-u-1-1">
@@ -75,11 +101,11 @@
             </h2>
             <p>
                 Wombat Linux is rolling release. The main ISOs however, will
-                not be updated as frequently as the base system. The installer, 
-                named <code>wombatinstaller</code>, will install the latest 
-                packages, and thus will be the reasoning for the lack of updates. 
-                The ISOs will only be updated as fast as the installer or package 
-                manager are updated, as those are the only software that are 
+                not be updated as frequently as the base system. The installer,
+                named <code>wombatinstaller</code>, will install the latest
+                packages, and thus will be the reasoning for the lack of updates.
+                The ISOs will only be updated as fast as the installer or package
+                manager are updated, as those are the only software that are
                 required to use the ISOs for their intended purposes.
             </p>
         </div>
@@ -94,7 +120,7 @@
                 The package manager for Wombat Linux is
                 <a href="/uspm.html">USPM</a> by
                 <a href="https://afroraydude.com">afroraydude</a>.
-                <br/>
+                <br />
                 USPM is a simple package manager that is useful for the tracking,
                 installation, and uninstallation of binary packages built for Wombat
                 Linux and other Musl-based
@@ -127,7 +153,7 @@
     </div>
     <div class="footer">
         <img class="logo" src="assets/logos/display.png" />
-        <br/>
+        <br />
         <img class="logo" src="assets/logos/uspm-display.png" />
     </div>
 </body>

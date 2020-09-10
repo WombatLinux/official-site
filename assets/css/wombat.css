@@ -20,6 +20,7 @@ body {
 
 .navbar {
   height: 75px;
+  background-color: ghostwhite;
 }
 
 .center-horiz {
@@ -53,4 +54,9 @@ br {
   content: " ";
   display: block;
   margin: 1em;
+}
+
+.list-with-space li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
